@@ -1,8 +1,7 @@
 """
-Introduction sur Dash à partir du livret édité et de la
-documentation en pdf : 'data/Documentation.pdf'
+Dans ce script, on modifie le style des éléments HTML du précédent script
 
-Date : 16-08-2023
+Date : 16-08-23
 """
 
 from dash import Dash
@@ -15,14 +14,23 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 # Instanciation de la librairie en objet
 app = Dash(__name__, external_stylesheets=external_stylesheets)
 
+# Style
+colors={
+    'background':'#111111',
+    'text':'#7FDBFF'}
+
 # Configuration de la page @
-app.layout = html.Div(children=[
+app.layout = html.Div(
+    style={'backgroundColor':colors['background']},
+    children=[
     
     # Titre principal de la page @
-    html.H1(children='Tableau de bord Dash'),
+    html.H1(children='Tableau de bord Dash',
+            style={'textAlign':'center', 'color':colors['text']}),
     
     # Markdown
-    html.Div('''Dash : A web application framework for Python'''),
+    html.Div(children='''Dash : A web application framework for Python''',
+             style={'textAlign':'center', 'color':colors['text']}),
     
     # Graphique
     dcc.Graph(
@@ -31,7 +39,10 @@ app.layout = html.Div(children=[
             'data':[
                 {'x':[1, 2, 3], 'y':[4, 1, 2], 'type':'bar', 'name':'SF'}, 
                 {'x':[1, 2, 3], 'y':[2, 4, 5], 'type':'bar', 'name':'Montréal'}],
-            'layout':{'title':'Dash Data Visualisation'}
+            'layout':{'title':'Dash Data Visualisation',
+                      'plot_bgcolor':colors['background'],
+                      'paper_bgcolor':colors['background'],
+                      'font':{'color':colors['text']}}
             }
         )
     ])
