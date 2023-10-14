@@ -8,6 +8,8 @@ https://dash.plotly.com/cytoscape/reference
 Documentation sur Cytoscape Styling :
 https://dash.plotly.com/cytoscape/styling
 
+Style : 'documentation/Cytoscape_Styling.docx
+
 Le cytoscape est un composant atypique : il peut-être utilisé dans un 
 organigramme d'un groupe à titre d'exemple, ou organigramme interne d'une entreprise
 

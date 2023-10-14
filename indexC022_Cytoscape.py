@@ -11,6 +11,8 @@ https://dash.plotly.com/cytoscape/layout
 Documentation sur Cytoscape Event Callbacks :
 https://dash.plotly.com/cytoscape/events
 
+Style : 'documentation/Cytoscape_Styling.docx
+
 Date : 06-10-23
 """
 

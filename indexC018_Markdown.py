@@ -3,7 +3,7 @@ Lien : https://www.youtube.com/watch?v=hXAFzogkkKk&list=PLh3I780jNsiSvpGtPucq4yu
 Cours : Markdown Component - Plotly Dash
 
 Différents markdown avec raccourcis :
-'data/Markdown_Ecriture.docx'
+'documentation/Markdown_Ecriture.docx'
 
 Documentation dcc.Markdown :
 https://dash.plotly.com/dash-core-components/markdown

@@ -5,6 +5,8 @@ Cours : Introduction to Dash Cytoscape - Networks
 Documentation sur Cytoscape Reference :
 https://dash.plotly.com/cytoscape/reference
 
+Style : 'documentation/Cytoscape_Styling.docx
+
 Complément de cours sur le cytoscape : une des barres du diagramme en barres change
 de couleur selon le noeud sélectionné dans l'organigramme (cytoscape)
 
