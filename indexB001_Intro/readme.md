@@ -20,15 +20,19 @@ Lire préalablement ceci : [déployer une application web](https://github.com/th
 
 #### Étape 3 :
 
-Sur github, déployer le dossier ciblé dans un repository
+Sur github, déployer le dossier c****iblé dans un repository
 
 #### Étape 4 :
 
 Sur le site [render](https://dashboard.render.com/), cliquer sur :
 
-- Nouveau
-- Service Web
-- Construire et déployer à partir d'un référentiel Git
-- Puis récupérer le repertoire Github à partager
-
-Pour la configuration du déploiement du fichier principal sur l'application @, dans la partie "Démarrer la commande", saisir : gunicorn nomFichierPrincipal:server (exemple gunicorn app:server)
+- New
+- Web Service
+- Build and deploy from a Git repository
+- À la page suivante, dans le menu en bas "Publig Git Repository", copier l'URL du répertoire ciblé et déposé sur GitHub
+- À la page suivante :
+  - Name : saisir un nom au hasard qui sera une partie de l'url pour le partage du fichier (ex : lrcompta-NomDossier)
+  - Region : Frankfurt (EU Central)
+  - Start command -> saisir : gunicorn nomFichierPrincipal:server (exemple gunicorn app:server)
+  - Instance Free : Free (pour l'instant)
+  - Puis cliquer sur le bouton "Create Web Service"
