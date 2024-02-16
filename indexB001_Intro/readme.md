@@ -15,12 +15,12 @@ Ajouter la ligne de code suivant dans le fichier principal de python, après avo
 Lire préalablement ceci : [déployer une application web](https://github.com/thusharabandara/dash-app-render-deployment)
 
 * Il est conseillé de nommer le fichier principal "app.py"
-* La version de la  ****librairie pandas doit être inférieure à 1.6
+* Pour le fichier requirements.txt : copier les librairies du site GitHub pour déployer une application web -> éviter de mettre des numéros de version
 * Ajouter "gunicorn" dans le fichier requirements.txt qui doit-être inclus dans le répertoire ciblé
 
 #### Étape 3 :
 
-Sur github, déployer le dossier c****iblé dans un repository
+Sur github, déployer le dossier ciblé dans un **NOUVEAU** repository
 
 #### Étape 4 :
 
